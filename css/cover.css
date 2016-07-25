@@ -64,9 +64,11 @@ body {
  */
 .masthead-brand {
   margin-top: 10px;
-  margin-bottom: 10px;
+  margin-right: 00px;
+  }
+.masthead-nav {
+	margin-top: 45px;
 }
-
 .masthead-nav > li {
   display: inline-block;
 }
@@ -138,6 +140,10 @@ body {
     position: fixed;
     top: 0;
   }
+  .masthead-brand {
+  margin: 0px;
+  }
+
   .mastfoot {
     position: fixed;
     bottom: 0;
@@ -158,6 +164,7 @@ body {
   .masthead,
   .mastfoot,
   .cover-container {
-    width: 700px;
+    width: 960px;
   }
+  
 }
