@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -44,8 +46,8 @@
              <img src="images/task wizard2.png" height="100px" width="450px" class=" masthead-brand img-responsive" />
               <nav>
                 <ul class="nav masthead-nav">
-                  <li class="active"><a href="index.html">Home</a></li>
-                  <li><a href="placetask.html">Place Task</a></li>
+                  <li ><a href="index.html">Home</a></li>
+                  <li class="active"><a href="placetask.html">Place Task</a></li>
                   <li><a href="#">Contact Us</a></li>
                 </ul>
               </nav>
@@ -53,16 +55,78 @@
           </div>
 
           <div class="inner cover">
-            <h1 class="cover-heading">Welcome!</h1>
-            <p class="lead">Welcome to TaskWizards a versatile courier service that offers very reasonable rates for your errands or chores we do what you don’t have time for and are good at it please visit our place task form to fill out all the needed info so we can schedule you in.</p>
-            <p class="lead">
-              <a href="#" class="btn btn-lg btn-default">Place Task</a>
-            </p>
-          </div>
+            
+<form class="form-horizontal"  action="mailto:erick12342@live.com"
+  method="POST"
+  enctype="multipart/form-data"
+  name="New Task!">
+<fieldset>
 
-          <div class="mastfoot">
-            <div class="inner">
-              
+<!-- Form Name -->
+
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="textinput">Name</label>  
+  <div class="col-md-4">
+  <input id="textinput" name="textinput" type="text" placeholder="Name" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="Email">Email</label>  
+  <div class="col-md-4">
+  <input id="Email" name="Email" type="text" placeholder="your@email.com" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="Date">Date of task</label>  
+  <div class="col-md-4">
+  <input id="Date" name="Date" type="text" placeholder="MM/DD/YY" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<!-- Text input-->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="phone number">Contact Number</label>  
+  <div class="col-md-4">
+  <input id="phone number" name="phone number" type="text" placeholder="(xxx) xxx-xxxx" class="form-control input-md" required="">
+    
+  </div>
+</div>
+
+<!-- Textarea -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for="Task">Task Description</label>
+  <div class="col-md-4">                     
+    <textarea class="form-control" id="Task" name="Task">Task Description</textarea>
+  </div>
+</div>
+
+<!-- Button -->
+<div class="form-group">
+  <label class="col-md-4 control-label" for=""></label>
+  <div class="col-md-4">
+    <button type="submit" id="" name="" class="btn btn-primary">Submit</button>
+  </div>
+</div>
+
+</fieldset>
+</form>
+
+
+
+
+            </div><!-- End Inner -->
+
+
+
             </div>
           </div>
 
@@ -82,3 +146,7 @@
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
   </body>
 </html>
+
+
+
+
