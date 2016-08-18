@@ -56,10 +56,9 @@
 
           <div class="inner cover">
             
-<form class="form-horizontal"  action="mailto:erick12342@live.com"
-  method="POST"
-  enctype="multipart/form-data"
-  name="New Task!">
+<form class="form-horizontal"  action="contact.php"
+  method="post"
+  enctype="multipart/form-data">
 <fieldset>
 
 <!-- Form Name -->
@@ -69,7 +68,7 @@
 <div class="form-group">
   <label class="col-md-4 control-label" for="textinput">Name</label>  
   <div class="col-md-4">
-  <input id="textinput" name="textinput" type="text" placeholder="Name" class="form-control input-md" required="">
+  <input id="textinput" name="name_a" type="text" placeholder="Name" class="form-control input-md" required="">
     
   </div>
 </div>
@@ -78,7 +77,7 @@
 <div class="form-group">
   <label class="col-md-4 control-label" for="Email">Email</label>  
   <div class="col-md-4">
-  <input id="Email" name="Email" type="text" placeholder="your@email.com" class="form-control input-md" required="">
+  <input id="Email" name="email_a" type="text" placeholder="your@email.com" class="form-control input-md" required="">
     
   </div>
 </div>
@@ -87,7 +86,7 @@
 <div class="form-group">
   <label class="col-md-4 control-label" for="Date">Date of task</label>  
   <div class="col-md-4">
-  <input id="Date" name="Date" type="text" placeholder="MM/DD/YY" class="form-control input-md" required="">
+  <input id="Date" name="date_a" type="text" placeholder="MM/DD/YY" class="form-control input-md" required="">
     
   </div>
 </div>
@@ -96,7 +95,7 @@
 <div class="form-group">
   <label class="col-md-4 control-label" for="phone number">Contact Number</label>  
   <div class="col-md-4">
-  <input id="phone number" name="phone number" type="text" placeholder="(xxx) xxx-xxxx" class="form-control input-md" required="">
+  <input id="phone number" name="phone_a" type="text" placeholder="(xxx) xxx-xxxx" class="form-control input-md" required="">
     
   </div>
 </div>
@@ -105,7 +104,7 @@
 <div class="form-group">
   <label class="col-md-4 control-label" for="Task">Task Description</label>
   <div class="col-md-4">                     
-    <textarea class="form-control" id="Task" name="Task">Task Description</textarea>
+    <textarea class="form-control" id="Task" name="message_a">Task Description</textarea>
   </div>
 </div>
 
@@ -113,7 +112,8 @@
 <div class="form-group">
   <label class="col-md-4 control-label" for=""></label>
   <div class="col-md-4">
-    <button type="submit" id="" name="" class="btn btn-primary">Submit</button>
+    <input type="submit" value="Place Task" name="" class="btn btn-primary"></input>
+    <input type="reset" value="Clear" id="" name="" class="btn btn-primary"></input>
   </div>
 </div>
 
