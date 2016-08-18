@@ -32,3 +32,4 @@ else { ?>
 		window.location = 'placetask.html';
 	</script>
 <?php
+}?>
